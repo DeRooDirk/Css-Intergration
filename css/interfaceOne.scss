@@ -1,4 +1,14 @@
-/* -- Small Reset -- */
+/* -- variables titel -- */
+$paginatitel : rgb(206, 195, 195);
+$buttoncolor :rgb(206, 195, 195) ;
+$button-border:rgb(255, 165, 0);
+$button-bg:rgb(172, 122, 31);
+$button-border-bg-hover:rgb(206, 195, 195);
+
+/* -- variables Boxes -- */
+   /* Not done*/
+
+/*-- Basic Reset --*/
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +29,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     .paginatitel {
-        color: beige;
+        color: $paginatitel;
         font-size: 3.5rem;
         margin: 2rem;
         font-family: 'Grandstander', cursive;
@@ -31,9 +41,9 @@
         justify-content: space-around;
         flex-wrap: wrap;
         a {
-            color: whitesmoke;
+            color: $buttoncolor;
             text-decoration: none;
-            border: 1px solid orange;
+            border: 1px solid $button-border;
             padding: 10px 30px;
             border-radius: 5px;
             text-transform: uppercase;
@@ -41,8 +51,8 @@
             text-align: center;
         }
         a:hover {
-            background-color: orange;
-            border: 1px solid whitesmoke;
+            background-color:$button-bg;
+            border: 1px solid rgb(213, 201, 201);
         }
     }
     .container {

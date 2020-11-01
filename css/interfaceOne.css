@@ -1,4 +1,7 @@
-/* -- Small Reset -- */
+/* -- variables titel -- */
+/* -- variables Boxes -- */
+/* Not done*/
+/*-- Basic Reset --*/
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +36,7 @@
 }
 
 .landing .paginatitel {
-  color: beige;
+  color: #cec3c3;
   font-size: 3.5rem;
   margin: 2rem;
   font-family: 'Grandstander', cursive;
@@ -52,7 +55,7 @@
 }
 
 .landing .linkbox a {
-  color: whitesmoke;
+  color: #cec3c3;
   text-decoration: none;
   border: 1px solid orange;
   padding: 10px 30px;
@@ -63,8 +66,8 @@
 }
 
 .landing .linkbox a:hover {
-  background-color: orange;
-  border: 1px solid whitesmoke;
+  background-color: #ac7a1f;
+  border: 1px solid #d5c9c9;
 }
 
 .landing .container {

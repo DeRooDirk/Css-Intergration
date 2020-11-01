@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* -- variables titel -- */
+/* -- Basic Reset -- */
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +35,7 @@
 }
 
 .dirk .paginatitel2 {
-  color: beige;
+  color: #cec3c3;
   font-size: 3.5rem;
   margin: 1rem;
   font-family: 'Grandstander', cursive;
@@ -53,9 +55,9 @@
 }
 
 .dirk .linkbox a {
-  color: #e2d8d8;
+  color: #cec3c3;
   text-decoration: none;
-  border: 1px solid #e1a536;
+  border: 1px solid orange;
   padding: 10px 30px;
   border-radius: 5px;
   text-transform: uppercase;
@@ -64,8 +66,8 @@
 }
 
 .dirk .linkbox a:hover {
-  background-color: #df9c1f;
-  border: 1px solid #dfd3d3;
+  background-color: #ac7a1f;
+  border: 1px solid #d5c9c9;
 }
 
 .dirk .container {
