@@ -1,0 +1,376 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* -- Start Styling -- */
+.dirk {
+  min-height: 100vh;
+  width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #8181ce;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: antiquewhite;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.775)), to(rgba(0, 0, 0, 0.5))), url("./img/achtergrond0.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.5)), url("../img/achtergrond0.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dirk .paginatitel2 {
+  color: beige;
+  font-size: 3.5rem;
+  margin: 1rem;
+  font-family: 'Grandstander', cursive;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+.dirk .linkbox {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.dirk .linkbox a {
+  color: #e2d8d8;
+  text-decoration: none;
+  border: 1px solid #e1a536;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin: 10px;
+  text-align: center;
+}
+
+.dirk .linkbox a:hover {
+  background-color: #df9c1f;
+  border: 1px solid #dfd3d3;
+}
+
+.dirk .container {
+  background-color: aliceblue;
+  margin-top: 100px;
+}
+
+.dirk .container .kaart {
+  border: 5px solid lavender;
+  background-color: #2480c7;
+  width: 350px;
+  border-radius: 5px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dirk .container .kaart h1 {
+  color: white;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+
+.dirk .container .kaart .users {
+  font-size: 3rem;
+  color: aliceblue;
+  width: 90%;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.dirk .container .kaart .top {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: rgba(247, 245, 244, 0.761);
+  font-size: .7rem;
+  margin: 10px;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.419);
+  padding: 5px;
+}
+
+.dirk .container .kaart .counterbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding: 35px 0px 20px;
+  width: 90%;
+  margin: 0 auto;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.dirk .container .kaart .counterbox h6 {
+  margin: 0 1px;
+  width: 20px;
+  background-color: antiquewhite;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(1) {
+  height: 30px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(2) {
+  height: 20px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(3) {
+  height: 22px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(4) {
+  height: 45px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(5) {
+  height: 24px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(6) {
+  height: 40px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(7) {
+  height: 40px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(8) {
+  height: 60px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(9) {
+  height: 35px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(10) {
+  height: 50px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(11) {
+  height: 65px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(12) {
+  height: 45px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(13) {
+  height: 42px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(14) {
+  height: 30px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(15) {
+  height: 38px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(16) {
+  height: 33px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(17) {
+  height: 28px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(18) {
+  height: 50px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(19) {
+  height: 35px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(20) {
+  height: 45px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(21) {
+  height: 35px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(21) {
+  height: 38px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(22) {
+  height: 25px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(23) {
+  height: 30px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(24) {
+  height: 35px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(24) {
+  height: 37px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(25) {
+  height: 30px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(26) {
+  height: 33px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(27) {
+  height: 40px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(28) {
+  height: 43px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(29) {
+  height: 40px;
+}
+
+.dirk .container .kaart .counterbox h6:nth-child(30) {
+  height: 20px;
+}
+
+.dirk .container .kaart .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.dirk .container .kaart .info .top2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: rgba(247, 245, 244, 0.761);
+  font-size: .7rem;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.419);
+}
+
+.dirk .container .kaart .info p {
+  color: whitesmoke;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  font-family: 'Lato', sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+
+.dirk .container .kaart .info p span {
+  float: right;
+}
+
+.dirk .container .kaart .info .bottom {
+  border: none;
+}
+
+.dirk .container .kaart .report {
+  text-align: right;
+  border-top: 1px solid rgba(255, 255, 255, 0.35);
+  width: 100%;
+  margin-top: 20px;
+  padding-right: 15px;
+  border-bottom: none;
+  color: #ede5e5;
+  padding-top: 10px;
+  font-family: "Lato";
+  font-size: 15px;
+}
+
+/* --sµStart Media Querie -- */
+@media only screen and (max-width: 1284px) {
+  .linkbox {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 30%;
+  }
+  .linkbox a {
+    text-align: center;
+    min-width: 30%;
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (max-width: 753px) {
+  .dirk .paginatitel2 {
+    text-align: center;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .dirk .paginatitel2 {
+    font-size: 0.8rem;
+  }
+  .dirk .linkbox {
+    margin: 0;
+  }
+  .dirk .linkbox a {
+    text-align: center;
+    font-size: 0.5rem;
+    font-family: "lato";
+    padding: 5px 5px;
+  }
+  .dirk .container {
+    margin-top: 0;
+  }
+  .dirk .container .kaart {
+    width: 150px;
+  }
+  .dirk .container .info {
+    text-align: center;
+    word-wrap: break-word;
+  }
+}
+/*# sourceMappingURL=interfaceTwo.css.map */

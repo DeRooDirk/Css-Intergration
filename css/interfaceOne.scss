@@ -1,0 +1,122 @@
+/* -- Small Reset -- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* -- Start Styling -- */
+.landing {
+    min-height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    background-color: rgb(129, 129, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.5)), url('/img/achtergrond0.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .paginatitel {
+        color: beige;
+        font-size: 3.5rem;
+        margin: 2rem;
+        font-family: 'Grandstander', cursive;
+        letter-spacing: 0.5rem;
+    }
+    .linkbox {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        a {
+            color: whitesmoke;
+            text-decoration: none;
+            border: 1px solid orange;
+            padding: 10px 30px;
+            border-radius: 5px;
+            text-transform: uppercase;
+            margin: 10px;
+            text-align: center;
+        }
+        a:hover {
+            background-color: orange;
+            border: 1px solid whitesmoke;
+        }
+    }
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 50px auto;
+        .box {
+            margin: 5px 1px;
+            border-radius: 20px;
+            background-color: rgb(212, 225, 225);
+            .fotobox {
+                display: flex;
+                justify-content: center;
+                img {
+                    width: 100%;
+                    max-width: 170px;
+                    height: auto;
+                    margin-top: 10%;
+                }
+            }
+            .text {
+                margin-top: 5px;
+                padding: 10px;
+                .kaarttitel {
+                    color: green;
+                    font-size: 1.5rem;
+                    font-family: 'Poppins', sans-serif;
+                    font-weight: 400;
+                    letter-spacing: 0.1rem;
+                    margin: 30px 10px 5px 2px;
+                }
+                .kaarttext {
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 500;
+                    font-size: 1rem;
+                    letter-spacing: 0.1rem;
+                    line-height: 1.2rem;
+                    margin-top: 1rem;
+                }
+            }
+        }
+    }
+}
+/* -- Start Media querie --*/
+
+@media only screen and (max-width: 553px) {
+    .landing {
+        .paginatitel {
+            font-size: 0.7rem;
+            text-align: center;
+        }
+        .linkbox{
+            a{
+                font-size: 0.5rem;
+                letter-spacing: 1px;
+            }
+        }
+        .container {
+            justify-content: center;
+            .box {
+                .text {
+                    .kaarttitel {
+                        font-size: 0.9rem;
+                        text-align: center;
+                        padding: 5px;
+                    }
+                    .kaarttext {
+                        font-size: 0.9rem;
+                        text-align: center;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,86 @@
+/*-- Basic Reset --*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*--  Start Styling van landingspagina --*/
+.start {
+  height: 100vh;
+  width: 100vw;
+  background-color: #8181ce;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: antiquewhite;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.775)), to(rgba(0, 0, 0, 0.5))), url("../img/achtergrond0.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.5)), url("../img/achtergrond0.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.start .paginatitel {
+  color: beige;
+  font-size: 3.55rem;
+  font-family: 'Grandstander', cursive;
+  letter-spacing: 0.2rem;
+  text-align: center;
+}
+
+.start .linkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 30%;
+  margin: 50px auto;
+}
+
+.start .linkbox a {
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: whitesmoke;
+  border: 1px solid orange;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin: 15px;
+  width: 100%;
+  text-align: center;
+}
+
+.start .linkbox a:hover {
+  background-color: #a77822;
+  border: 1px solid #d5c9c9;
+}
+
+/* -- Media queries for landingspage -- */
+@media only screen and (max-width: 753px) {
+  .start .paginatitel {
+    font-size: 1rem;
+  }
+  .start .linkbox {
+    border: 2px solid red;
+  }
+  .start .linkbox a {
+    font-size: 10px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
