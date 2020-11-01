@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* -- variables titel -- */
 /*--Mixins--*/
-/* -- Basic Reset -- */
+/*-- Basic Reset --*/
 * {
   margin: 0;
   padding: 0;
@@ -138,6 +138,7 @@
 }
 
 .dirk .container .kaart .counterbox h6 {
+  color: antiquewhite;
   margin: 0 1px;
   width: 20px;
   background-color: antiquewhite;
