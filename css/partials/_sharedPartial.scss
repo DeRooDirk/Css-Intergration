@@ -1,0 +1,24 @@
+/* -- variables titel -- */
+$paginatitel : rgb(206, 195, 195);
+$buttoncolor :rgb(206, 195, 195) ;
+$button-border:rgb(255, 165, 0);
+$button-bg:rgb(172, 122, 31);
+$button-border-bg-hover:rgb(206, 195, 195);
+$font-titel:3.5rem;
+
+/*--Mixins--*/
+
+@mixin achtergrond {
+    background-color: antiquewhite;
+    background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.5)), url('../img/achtergrond0.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*-- Basic Reset --*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

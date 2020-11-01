@@ -1,18 +1,9 @@
-/* -- variables titel -- */
+/*--  Import Shared Partial --*/
 
-$paginatitel : rgb(206, 195, 195);
-$buttoncolor :rgb(206, 195, 195) ;
-$button-border:rgb(255, 165, 0);
-$button-border-bg:rgb(172, 122, 31);
-$button-border-bg-hover:rgb(206, 195, 195);
-/* -- Basic Reset -- */ 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "../css/partials/sharedPartial";
 
 /* -- Start Styling -- */
+
 .dirk {
     min-height: 100vh;
     width: 100vw;
@@ -21,15 +12,11 @@ $button-border-bg-hover:rgb(206, 195, 195);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
-    background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.5)), url('../img/achtergrond0.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include achtergrond;
 
     .paginatitel2 {
         color: $paginatitel;
-        font-size: 3.5rem;
+        font-size: $font-titel;
         margin: 1rem;
         font-family: 'Grandstander', cursive;
         letter-spacing: 0.5rem;
@@ -333,25 +320,30 @@ $button-border-bg-hover:rgb(206, 195, 195);
     .dirk {
         .paginatitel2 {
             font-size: 0.8rem;
-        }  
-        .linkbox{ 
+        }
+
+        .linkbox {
             margin: 0;
-            a{
+
+            a {
                 text-align: center;
-        font-size: 0.5rem;
-        font-family: "lato";
-        padding:5px 5px;
+                font-size: 0.5rem;
+                font-family: "lato";
+                padding: 5px 5px;
             }
-        } 
-      .container{
-        margin-top: 0;
-            .kaart{
+        }
+
+        .container {
+            margin-top: 0;
+
+            .kaart {
                 width: 150px;
-            } 
-            .info{
-              text-align: center;
-              word-wrap: break-word;              
             }
-        }   
+
+            .info {
+                text-align: center;
+                word-wrap: break-word;
+            }
+        }
     }
 }

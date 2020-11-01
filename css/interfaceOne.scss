@@ -1,20 +1,9 @@
-/* -- variables titel -- */
-$paginatitel : rgb(206, 195, 195);
-$buttoncolor :rgb(206, 195, 195) ;
-$button-border:rgb(255, 165, 0);
-$button-bg:rgb(172, 122, 31);
-$button-border-bg-hover:rgb(206, 195, 195);
+/*--  Import Shared Partial --*/
 
-/* -- variables Boxes -- */
-   /* Not done*/
+@import "../css/partials/sharedPartial";
 
-/*-- Basic Reset --*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 /* -- Start Styling -- */
+
 .landing {
     min-height: 100vh;
     width: 100vw;
@@ -23,23 +12,23 @@ $button-border-bg-hover:rgb(206, 195, 195);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: antiquewhite;
-    background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.5)), url('../img/achtergrond0.jpg');
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    @include achtergrond;
+    
+
     .paginatitel {
         color: $paginatitel;
-        font-size: 3.5rem;
+        font-size: $font-titel;
         margin: 2rem;
         font-family: 'Grandstander', cursive;
         letter-spacing: 0.5rem;
     }
+
     .linkbox {
         width: 50%;
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
+
         a {
             color: $buttoncolor;
             text-decoration: none;
@@ -50,23 +39,28 @@ $button-border-bg-hover:rgb(206, 195, 195);
             margin: 10px;
             text-align: center;
         }
+
         a:hover {
-            background-color:$button-bg;
+            background-color: $button-bg;
             border: 1px solid rgb(213, 201, 201);
         }
     }
+
     .container {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         margin: 50px auto;
+
         .box {
             margin: 5px 1px;
             border-radius: 20px;
             background-color: rgb(212, 225, 225);
+
             .fotobox {
                 display: flex;
                 justify-content: center;
+
                 img {
                     width: 100%;
                     max-width: 170px;
@@ -74,9 +68,11 @@ $button-border-bg-hover:rgb(206, 195, 195);
                     margin-top: 10%;
                 }
             }
+
             .text {
                 margin-top: 5px;
                 padding: 10px;
+
                 .kaarttitel {
                     color: green;
                     font-size: 1.5rem;
@@ -85,6 +81,7 @@ $button-border-bg-hover:rgb(206, 195, 195);
                     letter-spacing: 0.1rem;
                     margin: 30px 10px 5px 2px;
                 }
+
                 .kaarttext {
                     font-family: 'Lato', sans-serif;
                     font-weight: 500;
@@ -97,22 +94,28 @@ $button-border-bg-hover:rgb(206, 195, 195);
         }
     }
 }
+
 /* -- Start Media querie --*/
 
-@media only screen and (max-width: 553px) {
+@media only screen and (max-width: 1553px) {
     .landing {
         .paginatitel {
             font-size: 0.7rem;
             text-align: center;
         }
-        .linkbox{
-            a{
-                font-size: 0.5rem;
+
+        .linkbox {
+            a {
+                font-size: 0.7rem;
                 letter-spacing: 1px;
+                width: 80%;
+                padding: 20px;
             }
         }
+
         .container {
             justify-content: center;
+
             .box {
                 .text {
                     .kaarttitel {
@@ -120,6 +123,7 @@ $button-border-bg-hover:rgb(206, 195, 195);
                         text-align: center;
                         padding: 5px;
                     }
+
                     .kaarttext {
                         font-size: 0.9rem;
                         text-align: center;
