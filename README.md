@@ -1,6 +1,6 @@
 # Css-Intergration .
 
-### An exercise to evaluate  our aquired skills.
+## An exercise to evaluate  our  skills.
 
 #### Re-build two interfaces as Pixelperfect as you can .
 
@@ -15,6 +15,13 @@
 * The visual end result matches the challenge requirements.
 * Deploy & make vissible.
 
-## My Result 
+## My Style & Result .
+
+* used scss.
+* used variables.
+* used partial.
+* small reset.
+* Google fonts.
+* Favicon.
 
 https://deroodirk.github.io/Css-Intergration/.
