@@ -1,5 +1,4 @@
 /*--  Import Shared Partial --*/
-
 @import "../css/partials/sharedPartial";
 
 /* -- Start Styling -- */
@@ -12,8 +11,9 @@
     justify-content: center;
     align-items: center;
     @include achtergrond;
-    .contentbox{        
-        .paginatitel2 {
+    .contentbox{  
+           
+        .paginatitel {
             color: $paginatitel;
             font-size: $font-titel;
             margin: 1rem;
@@ -49,11 +49,10 @@
     }
 
     .container {
-
         max-width: 496px;
         height: 265px;
-        display: flex;
-
+        display: flex;        
+        margin-top: 30px;
         .boxleft {
             width: 40%;
             background-image: url(../img/foto3.jpg);
