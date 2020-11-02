@@ -1,0 +1,129 @@
+/*--  Import Shared Partial --*/
+/* -- variables titel -- */
+/*--Mixins--*/
+/*-- Basic Reset --*/
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* -- Start Styling -- */
+.landing {
+  min-height: 100vh;
+  width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #8181ce;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: antiquewhite;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.775)), to(rgba(0, 0, 0, 0.5))), url("../img/achtergrond0.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.5)), url("../img/achtergrond0.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing .container {
+  width: 496px;
+  height: 265px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.landing .container .boxleft {
+  width: 40%;
+  background-image: url(../img/foto3.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.landing .container .boxright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+  background-color: beige;
+  height: 100%;
+}
+
+.landing .container .boxright .tekstrechts .titel {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  margin-top: 10px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+
+.landing .container .boxright .tekstrechts .tekst {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 0.8rem;
+  margin-top: 15px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 200;
+}
+
+.landing .container .infobox {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.landing .container .infobox .foto img {
+  border-radius: 50%;
+  height: 50px;
+  width: auto;
+}
+
+.landing .container .infobox .naam {
+  margin-top: 12px;
+}
+
+.landing .container .infobox .naam p {
+  font-size: .7rem;
+}
+
+.landing .container .infobox .tekens {
+  margin-top: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.landing .container .infobox .tekens i {
+  color: #090909;
+}
+/*# sourceMappingURL=interfaceThree.css.map */

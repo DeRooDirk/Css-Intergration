@@ -1,0 +1,97 @@
+/*--  Import Shared Partial --*/
+
+@import "../css/partials/sharedPartial";
+
+/* -- Start Styling -- */
+.landing {
+    min-height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    background-color: rgb(129, 129, 206);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @include achtergrond;
+
+    .container {
+
+        width: 496px;
+        height: 265px;
+        display: flex;
+
+        .boxleft {
+            width: 40%;
+            background-image: url(../img/foto3.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .boxright {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            width: 60%;
+            background-color: beige;
+            height: 100%;
+
+            .tekstrechts {
+
+                .titel {
+                    width: 90%;
+                    margin: 0 auto;
+                    font-size: 0.9rem;
+                    margin-top: 10px;
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 600;
+                }
+
+                .tekst {
+                    width: 90%;
+                    margin: 0 auto;
+                    font-size: 0.8rem;
+                    margin-top: 15px;
+                    font-family: 'Lato', sans-serif;
+                    font-weight: 200;
+
+                }
+            }
+        }
+
+        .infobox {
+            width: 90%;
+            margin: 0 auto;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: space-around;
+
+            .foto {
+                img {
+                    border-radius: 50%;
+                    height: 50px;
+                    width: auto;
+                }
+            }
+
+            .naam {
+                margin-top: 12px;
+
+                p {
+                    font-size: .7rem;
+                }
+            }
+
+            .tekens {
+                margin-top: 12px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                i {
+                    color: rgb(9, 9, 9);
+
+                }
+            }
+        }
+    }
+}
