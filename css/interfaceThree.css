@@ -35,6 +35,43 @@
   background-size: cover;
 }
 
+.landing .contentbox .paginatitel2 {
+  color: #cec3c3;
+  font-size: 3.5rem;
+  margin: 1rem;
+  font-family: 'Grandstander', cursive;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+.landing .contentbox .linkbox {
+  width: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.landing .contentbox .linkbox a {
+  color: #cec3c3;
+  text-decoration: none;
+  border: 1px solid orange;
+  padding: 10px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  margin: 10px;
+  text-align: center;
+}
+
+.landing .contentbox .linkbox a:hover {
+  background-color: #ac7a1f;
+  border: 1px solid #d5c9c9;
+}
+
 .landing .container {
   max-width: 496px;
   height: 265px;

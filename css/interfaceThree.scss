@@ -12,6 +12,41 @@
     justify-content: center;
     align-items: center;
     @include achtergrond;
+    .contentbox{        
+        .paginatitel2 {
+            color: $paginatitel;
+            font-size: $font-titel;
+            margin: 1rem;
+            font-family: 'Grandstander', cursive;
+            letter-spacing: 0.5rem;
+            text-align: center;
+        }
+    
+        .linkbox {
+            width: 30%;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;            
+            margin: 0 auto;
+    
+            a {
+                color: $buttoncolor;
+                text-decoration: none;
+                border: 1px solid $button-border;
+                padding: 10px 30px;
+                border-radius: 5px;
+                text-transform: uppercase;
+                margin: 10px;
+                text-align: center;
+            }
+    
+            a:hover {
+                background-color: $button-border-bg-hover;
+                border: 1px solid rgb(213, 201, 201);
+            }
+        }
+    
+    }
 
     .container {
 
