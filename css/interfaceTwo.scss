@@ -273,10 +273,8 @@
 
             .report {
                 text-align: right;
-                border-top: 1px solid rgba(255, 255, 255, 0.35);
-                width: 100%;
-                margin-top: 20px;
-                padding-right: 15px;
+                border-top: 1px solid rgba(209, 203, 203, 0.638);                 
+                margin-top: 20px ;               
                 border-bottom: none;
                 color: rgb(237, 229, 229);
                 padding-top: 10px;
@@ -287,7 +285,7 @@
     }
 }
 
-/* --sµStart Media Querie -- */
+/* -- Start Media Querie -- */
 @media only screen and (max-width: 1284px) {
     .linkbox {
         display: flex;
